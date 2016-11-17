@@ -17,10 +17,20 @@
 
 
 <div class="header">
+  <!-- REVIEW
+    this isn't semantic HTML, you should use lay-out elements like <header>, <footer>, <nav>, <aside>, etc. instead of <div>
+-->
     <div class="home-menu peggert-menu horizontal-menu fixed-menu">
     	<a href="http://google.com">
+        <!-- REVIEW
+        this link isn't closed
+        -->
     	<img class="logo" width="40" src="../_img/peggert-logo-thumbnail.png">
         <a class="menu-heading" href="https://google.com">Peggert's Blog</a>
+        <!-- REVIEW
+        If this is your website name, why aren't you using a header
+        Your classnames should be semantic too, describe what's their function instead of the module you're using
+        -->
         <ul class="peggert-menu-list">
             <li class="peggert-menu-item menu-selected"><a href="#" class="linked-to-peggert-menu">Home</a></li>
             <li class="peggert-menu-item"><a href="#" class="linked-to-peggert-menu">Categories</a></li>
@@ -31,6 +41,9 @@
 </div>
 
 <div class="splash-container">
+  <!-- REVIEW
+    this isn't semantic HTML, you should use lay-out elements like <header>, <footer>, <nav>, <aside>, etc. instead of <div>
+-->
     <div class="splash">
         <h1 class="splash-head">Peggert</h1>
         <p class="splash-subhead">
@@ -43,6 +56,9 @@
 </div>
 
 <div class="content-wrapper">
+  <!-- REVIEW
+    this isn't semantic HTML, you should use lay-out elements like <header>, <footer>, <nav>, <aside>, etc. instead of <div>
+-->
     <div class="content">
     	<h2 class="content-head is-center">Categories</h2>
         <p>
@@ -51,9 +67,9 @@
     		<img width="70" src="../_img/peggert-logo-thumbnail.png">
         </div>
      <P> ADDDDDDDD TEEEEEEXTT AND CONTENT
-     
+
     <div class="ribbon l-box-lrg pure-g">
-                  <img class="pure-img-responsive" width="300" src="../img/common/file-icons.png"> 
+                  <img class="pure-img-responsive" width="300" src="../img/common/file-icons.png">
         </div>
 
             <h2 class="content-head content-head-ribbon">Subtiltle for icon</h2>
